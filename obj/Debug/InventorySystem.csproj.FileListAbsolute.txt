@@ -1,0 +1,15 @@
+C:\Users\Isaac\git\InventorySystem\bin\Debug\InventorySystem.exe.config
+C:\Users\Isaac\git\InventorySystem\bin\Debug\InventorySystem.exe
+C:\Users\Isaac\git\InventorySystem\bin\Debug\InventorySystem.pdb
+C:\Users\Isaac\git\InventorySystem\obj\Debug\InventorySystem.csprojAssemblyReference.cache
+C:\Users\Isaac\git\InventorySystem\obj\Debug\MainWindow.g.cs
+C:\Users\Isaac\git\InventorySystem\obj\Debug\App.g.cs
+C:\Users\Isaac\git\InventorySystem\obj\Debug\InventorySystem_MarkupCompile.cache
+C:\Users\Isaac\git\InventorySystem\obj\Debug\InventorySystem_MarkupCompile.lref
+C:\Users\Isaac\git\InventorySystem\obj\Debug\MainWindow.baml
+C:\Users\Isaac\git\InventorySystem\obj\Debug\InventorySystem.g.resources
+C:\Users\Isaac\git\InventorySystem\obj\Debug\InventorySystem.Properties.Resources.resources
+C:\Users\Isaac\git\InventorySystem\obj\Debug\InventorySystem.csproj.GenerateResource.cache
+C:\Users\Isaac\git\InventorySystem\obj\Debug\InventorySystem.csproj.CoreCompileInputs.cache
+C:\Users\Isaac\git\InventorySystem\obj\Debug\InventorySystem.exe
+C:\Users\Isaac\git\InventorySystem\obj\Debug\InventorySystem.pdb

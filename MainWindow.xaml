@@ -5,8 +5,53 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:InventorySystem"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Main Menu" Height="600" Width="800" Foreground="Black">
+
+
     <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
         
+        <Grid Grid.Row="0" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <!--Labels for each category-->
+            <Label Grid.Row="0" Grid.Column="0" VerticalAlignment="Top" 
+               HorizontalAlignment="Center">Price</Label>
+            <Label Grid.Row="0" Grid.Column="1" VerticalAlignment="Top" 
+               HorizontalAlignment="Center">Stock</Label>
+            <Label Grid.Row="0" Grid.Column="2" VerticalAlignment="Top"
+               HorizontalAlignment="Center">Location</Label>
+        </Grid>
+
+        <ListView x:Name="inventoryList" Grid.Row="1" Grid.Column="1" ItemsSource="{Binding}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="{Binding Price}"/>
+                        <Label Content="{Binding Stock}"/>
+                        <Label Content="{Binding Location}"/>
+
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+
+
+
+
+
+        <!--Side menu buttons-->
     </Grid>
 </Window>
